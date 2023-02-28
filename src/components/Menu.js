@@ -18,7 +18,7 @@ import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 
 const Menu = ({darkMode,setDarkMode}) => {
   return (
-    <div className='flex w-[320px] bg-${({theme})=>theme.bg}; text-${({theme})=>theme.text}; h-[703px] sticky top-0'><div className='pb-[10px]  pl-[26px] pr-[26px] '><div className=' '><div className='flex items-center font-bold'><img className='h-30 w-20' src='https://wallpaperaccess.com/full/2404616.jpg'/>LamaTube</div>
+    <div className='flex w-[320px] bg-${({theme})=>theme.bg} text-${({theme})=>theme.text} h-[703px] sticky top-0'><div className='pb-[10px]  pl-[26px] pr-[26px] '><div className=' '><div className='flex items-center font-bold'><img className='h-30 w-20' src='https://wallpaperaccess.com/full/2404616.jpg'/>LamaTube</div>
     <div className='flex items-center cursor-pointer pl-6 gap-5 pb-2'><HomeIcon />Home</div>
     <div className='flex items-center cursor-pointer pl-6 gap-5 pb-2'><ExploreIcon />Explore</div>
     <div className='flex items-center cursor-pointer pl-6 gap-5 pb-2'><SubscriptionsIcon />Subscription</div><div className='mb-[8px]   border-${({theme})=>theme.soft}  border-2'></div>
@@ -33,7 +33,7 @@ const Menu = ({darkMode,setDarkMode}) => {
     <div className='flex items-center cursor-pointer pl-6 gap-5 pb-2'><SportsEsportsIcon />Gaming</div>
     <div className='flex items-center cursor-pointer pl-6 gap-5 pb-2'><MovieIcon />Movies</div>
     <div className='flex items-center cursor-pointer pl-6 gap-5 pb-2'><FeedIcon />News</div>
-    <div className='flex items-center cursor-pointer pl-6 gap-5 pb-1'><LiveTvIcon />Live</div></div><div className='mb-[8px]   border-${({theme})=>theme.soft}'></div>
+    <div className='flex items-center cursor-pointer pl-6 gap-5 pb-1'><LiveTvIcon />Live</div></div><div className='mb-[8px] border-${({theme})=>theme.soft border-2'></div>
     <div className='flex items-center cursor-pointer pl-6 gap-5 pb-2'><SettingsIcon />Settings</div>
     <div className='flex items-center cursor-pointer pl-6 gap-5 pb-2'><FlagCircleIcon />Report</div>
     <div className='flex items-center cursor-pointer pl-6 gap-5 pb-2'><HelpIcon />Help</div>
